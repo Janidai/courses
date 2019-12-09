@@ -69,7 +69,7 @@ lapply(x, mean)
 
 ## lapply
 
-```r
+```{r}
 > x <- 1:4
 > lapply(x, runif)
 [[1]]
@@ -89,7 +89,7 @@ lapply(x, mean)
 
 ## lapply
 
-```r
+```{r}
 > x <- 1:4
 > lapply(x, runif, min = 0, max = 10)
 [[1]]
@@ -111,7 +111,7 @@ lapply(x, mean)
 
 `lapply` and friends make heavy use of _anonymous_ functions.
 
-```r
+```{r}
 > x <- list(a = matrix(1:4, 2, 2), b = matrix(1:6, 3, 2)) 
 > x
 $a
@@ -132,7 +132,7 @@ $b
 
 An anonymous function for extracting the first column of each matrix.
 
-```r
+```{r}
 > lapply(x, function(elt) elt[,1])
 $a
 [1] 1 2
@@ -157,7 +157,7 @@ $b
 
 ## sapply
 
-```r
+```{r}
 > x <- list(a = 1:4, b = rnorm(10), c = rnorm(20, 1), d = rnorm(100, 5))
 > lapply(x, mean)
 $a
@@ -177,7 +177,7 @@ $d
 
 ## sapply
 
-```r
+```{r}
 > sapply(x, mean) 
          a          b          c          d
 2.50000000 0.06082667 1.46708277 5.07474950
