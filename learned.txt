@@ -1,0 +1,4 @@
+01:17 18/12/2019 tapply
+01:18 18/12/2019 split; split a dataframe to months
+01:30 18/12/2019 gl() factor
+01:30 18/12/2019 interaction
