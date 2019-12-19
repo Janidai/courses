@@ -8,3 +8,4 @@
 12:33 19/12/2019 vapply
 13:21 19/12/2019 table
 14:44 19/12/2019 with; quiz week3 RProgrmaming
+15:28 19/12/2019 <<- operator from the assignment wee4 Rprogramming
