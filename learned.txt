@@ -2,3 +2,9 @@
 01:18 18/12/2019 split; split a dataframe to months
 01:30 18/12/2019 gl() factor
 01:30 18/12/2019 interaction
+01:34 18/12/2019 str
+02:50 18/12/2019 the 5 primary tools for debuging funciton in R 
+17:42 18/12/2019 unique
+12:33 19/12/2019 vapply
+13:21 19/12/2019 table
+14:44 19/12/2019 with; quiz week3 RProgrmaming
