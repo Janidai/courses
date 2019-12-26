@@ -9,3 +9,4 @@
 13:21 19/12/2019 table
 14:44 19/12/2019 with; quiz week3 RProgrmaming
 15:28 19/12/2019 <<- operator from the assignment wee4 Rprogramming
+17:27 20/12/2019 system.time(): week profiling part 1: to measure execution time
