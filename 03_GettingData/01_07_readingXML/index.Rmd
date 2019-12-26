@@ -78,7 +78,8 @@ knit_hooks$set(plot = knitr:::hook_plot_html)
 ```{r xmldata}
 library(XML)
 fileUrl <- "http://www.w3schools.com/xml/simple.xml"
-doc <- xmlTreeParse(fileUrl,useInternal=TRUE)
+download.file(fileUrl, destfile = "./data/simple.xml")
+doc <- xmlTreeParse("./data/simple.xml",useInternalNodes=TRUE)
 rootNode <- xmlRoot(doc)
 xmlName(rootNode)
 names(rootNode)
@@ -153,7 +154,8 @@ xpathSApply(rootNode,"//price",xmlValue)
 
 ```{r htmldata}
 fileUrl <- "http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens"
-doc <- htmlTreeParse(fileUrl,useInternal=TRUE)
+download.file(fileUrl, destfile = "./data/baltimore.html")
+doc <- htmlTreeParse("./data/baltimore.html",useInternal=TRUE)
 scores <- xpathSApply(doc,"//li[@class='score']",xmlValue)
 teams <- xpathSApply(doc,"//li[@class='team-name']",xmlValue)
 scores
