@@ -76,9 +76,12 @@ tail(carMelt,n=3)
 
 ```{r ,dependson="mtcars"}
 cylData <- dcast(carMelt, cyl ~ variable)
+table(carMelt$cyl, carMelt$variable)# very similar
 cylData
+
 cylData <- dcast(carMelt, cyl ~ variable,mean)
 cylData
+
 ```
 
 [http://www.statmethods.net/management/reshape.html](http://www.statmethods.net/management/reshape.html)

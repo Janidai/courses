@@ -1,0 +1,25 @@
+---
+title: "week2"
+author: "Abdellah Janid"
+date: "12/27/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.Question 1
+Register an application with the Github API here https://github.com/settings/applications. Access the API to get information on your instructors repositories (hint: this is the url you want "https://api.github.com/users/jtleek/repos"). Use this data to find the time that the datasharing repo was created. What time was it created?
+
+This tutorial may be useful (https://github.com/hadley/httr/blob/master/demo/oauth2-github.r). You may also need to run the code in the base R package and not R studio.
+
+2013-08-28T18:18:50Z
+2014-03-05T16:11:46Z
+2012-06-20T18:39:06Z
+2013-11-07T13:25:07Z
+
+1 point
+
+2.Question 2
+The sqldf package allow

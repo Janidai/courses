@@ -56,9 +56,13 @@ invisible(if(file.exists("example.h5")){file.remove("example.h5")})
 ```
 
 ```{r loadPackage,eval=FALSE}
-source("http://bioconductor.org/biocLite.R")
-biocLite("rhdf5")
+#source("https://bioconductor.org/biocLite.R")
+#biocLite("rhdf5")
 ```
+```{r}
+BiocManager::install("rhdf5")
+```
+
 
 ```{r rhdf5,message=FALSE}
 library(rhdf5)

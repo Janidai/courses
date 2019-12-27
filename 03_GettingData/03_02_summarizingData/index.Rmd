@@ -141,6 +141,7 @@ table(restData$zipCode %in% c("21212","21213"))
 
 
 ```{r,dependson="getData"}
+#subset
 restData[restData$zipCode %in% c("21212","21213"),]
 ```
 
