@@ -1,0 +1,17 @@
+---
+title: "organizing, merging and managing the data"
+author: "Abdellah Janid"
+date: "12/28/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+
+library(data.table)
+library(dplyr)
+library(tidyr)
+```
+
