@@ -35,3 +35,16 @@
   |=====                                                                                                                                            |   3%
 | In this lesson, we'll review basic ideas of probability, the study of quantifying the likelihood of particular events occurring. Note the similarity
 | between the words probability and probably. Every time you use the latter word you're implying that an event is more likely than not to occur.
+
+  |=========================                                                                                                                        |  17%
+| A probability mass function (PMF) gives the probability that a discrete random variable is exactly equal to some value.
+
+...
+
+
+01:34 12/01/2020 https://en.wikipedia.org/wiki/Binomial_coefficient
+
+
+  |============================================================================================================                                     |  74%
+| The quantile v of a CDF is the point x_v at which the CDF has the value v. More precisely, F(x_v)=v. A percentile is a quantile in which v is expressed
+| as a percentage.

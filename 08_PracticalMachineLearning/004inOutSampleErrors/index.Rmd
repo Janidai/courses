@@ -84,6 +84,7 @@ rule1 <- function(x){
 table(rule1(smallSpam$capitalAve),smallSpam$type)
 ```
 
+
 ---
 
 ## Prediction rule 2

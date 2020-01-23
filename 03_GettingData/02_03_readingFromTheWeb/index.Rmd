@@ -90,6 +90,30 @@ xpathSApply(parsedHtml, "//title", xmlValue)
 ```
 
 
+```{r httr,dependson="xml"}
+library(httr)
+url <- "https://www.parisfintechforum.com/FintechList"
+html2 = GET(url)
+content2 = content(html2,as="text")
+parsedHtml = htmlParse(content2,asText=TRUE)
+compmnies <- xpathSApply(parsedHtml, "//href")
+```
+
+
+```{r}
+url <- "https://www.parisfintechforum.com/FintechList"
+html <- paste(readLines(url), collapse="\n")
+library(stringr)
+matched <- str_match_all(html, "href=\"(.*?)\"")
+```
+
+```{r}
+url <- "http://stackoverflow.com/questions/3746256/extract-links-from-webpage-using-r"
+doc <- htmlParse(url)
+links <- xpathSApply(doc, "//a/@href")
+free(doc)
+```
+
 
 ---
 
